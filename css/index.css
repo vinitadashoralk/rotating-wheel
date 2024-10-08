@@ -12,8 +12,9 @@
   border-left: 10px solid #e91e63;
   border-right: 10px solid #ffeb3b;
   border-radius: 50%;
+
   transition: transform 2s ease;
 }
 .wheel:hover {
-  transform: rotate(359deg);
+  transform: translate(500px) rotate(360deg);
 }
